@@ -29,7 +29,7 @@ public class Produkt {
                 "title='" + name + '\'' +
                 ", price=" + cena +
                 ", rating=" + rating +
-                ", quantity=" + quantity +
+                 ", quantity=" + quantity +
                 '}';
     }
 }
