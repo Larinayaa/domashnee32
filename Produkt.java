@@ -25,11 +25,10 @@ public class Produkt {
     }
     @Override
     public String toString() {
-        return "Product{" +
-                "title='" + name + '\'' +
-                ", price=" + cena +
-                ", rating=" + rating +
-                 ", quantity=" + quantity +
-                '}';
+        return '\'' + name + '\'' +
+                ", стоимость: " + cena +
+                ", рейтинг: " + rating +
+                 ", остаток на складе: " + quantity +
+                '.';
     }
 }
